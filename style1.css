@@ -264,18 +264,54 @@ transition: width 0.3s;
      }
      score {
       font-size: 1.25rem;
+      user-select: none; /* Prevents text selection */
+        -webkit-user-select: none; /* Chrome, Safari, Opera */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        
+        /* Prevents selection box from appearing */
+        outline: none;
+        -webkit-tap-highlight-color: transparent; /* Removes blue highlight on tap (for mobile) */
+   
      }
      .score img {
      width: 25px;
       height: 25px;
+      user-select: none; /* Prevents text selection */
+        -webkit-user-select: none; /* Chrome, Safari, Opera */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        
+        /* Prevents selection box from appearing */
+        outline: none;
+        -webkit-tap-highlight-color: transparent; /* Removes blue highlight on tap (for mobile) */
+   
        }
       .hamster {
        width: 200px;
        height: 200px;
+       user-select: none; /* Prevents text selection */
+        -webkit-user-select: none; /* Chrome, Safari, Opera */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        
+        /* Prevents selection box from appearing */
+        outline: none;
+        -webkit-tap-highlight-color: transparent; /* Removes blue highlight on tap (for mobile) */
+   
       }
       .hamster img {
         width: 150%;
         border-radius: 50%;
+       user-select: none; /* Prevents text selection */
+        -webkit-user-select: none; /* Chrome, Safari, Opera */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        
+        /* Prevents selection box from appearing */
+        outline: none;
+        -webkit-tap-highlight-color: transparent; /* Removes blue highlight on tap (for mobile) */
+   
         }
       .level p {
      font-size: 0.75rem;
@@ -283,6 +319,15 @@ transition: width 0.3s;
       .imgLogo{
         width: 300px;
         height: 300px;
+       user-select: none; /* Prevents text selection */
+        -webkit-user-select: none; /* Chrome, Safari, Opera */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        
+        /* Prevents selection box from appearing */
+        outline: none;
+        -webkit-tap-highlight-color: transparent; /* Removes blue highlight on tap (for mobile) */
+   
         
       }
   
@@ -308,14 +353,40 @@ transition: width 0.3s;
      .score img {
      width: 25px;
       height: 25px;
+      user-select: none; /* Prevents text selection */
+        -webkit-user-select: none; /* Chrome, Safari, Opera */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        
+        /* Prevents selection box from appearing */
+        outline: none;
+        -webkit-tap-highlight-color: transparent; /* Removes blue highlight on tap (for mobile) */
+   
        }
       .hamster {
        width: 200px;
        height: 200px;
+       user-select: none; /* Prevents text selection */
+        -webkit-user-select: none; /* Chrome, Safari, Opera */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        
+        /* Prevents selection box from appearing */
+        outline: none;
+        -webkit-tap-highlight-color: transparent; /* Removes blue highlight on tap (for mobile) */
+   
       }
       .hamster img {
         width: 150%;
         border-radius: 50%;
+        user-select: none; /* Prevents text selection */
+        -webkit-user-select: none; /* Chrome, Safari, Opera */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        
+        /* Prevents selection box from appearing */
+        outline: none;
+        -webkit-tap-highlight-color: transparent; /* Removes blue highlight on tap (for mobile) */
         }
       .level p {
      font-size: 0.75rem;
@@ -323,6 +394,13 @@ transition: width 0.3s;
       .imgLogo{
         width: 300px;
         height: 300px;
+         user-select: none; /* Prevents text selection */
+        -webkit-user-select: none; /* Chrome, Safari, Opera */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
         
+        /* Prevents selection box from appearing */
+        outline: none;
+        -webkit-tap-highlight-color: transparent; /* Removes blue highlight on tap (for mobile) */
       }
 }
